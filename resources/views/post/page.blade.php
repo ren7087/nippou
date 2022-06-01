@@ -59,14 +59,9 @@
         });
     </script>
     <select id='columnNumber'>
-        <option value='0'>お客様</option>
-        <option value='1'>場所</option>
-        <option value='2'>商品</option>
-        <option value='4'>開始時間</option>
-        <option value='5'>終了時間</option>
-        <option value='6'>行為</option>
-        <option value='7'>移動手段</option>
-        <option value='8'>交通費</option>
+        <option value='3'>開始時間</option>
+        <option value='4'>終了時間</option>
+        <option value='7'>交通費</option>
     </select>
     <input type='button' value='ソートする' onclick="sheet.orderBy(document.getElementById('columnNumber').value)">
 </body>

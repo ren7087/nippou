@@ -137,7 +137,7 @@
 
               <div>
                 <label for="title">{{ ('交通費') }}</label>
-                <input name="fee" id="fee" required class="w-full rounded-lg border-2 bg-gray-100 @error('customer') border-red-500 @enderror">
+                <input name="fee" id="fee" placeholder="1000円" required class="w-full rounded-lg border-2 bg-gray-100 @error('customer') border-red-500 @enderror">
 
                 @error('customer')
                 <div class="text-red-500 text-sm mt-2">
